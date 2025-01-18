@@ -1,11 +1,12 @@
 console.log("hello");
 console.log("Hi");
 
-let name;
+let firstName;
+let lastName;
 
-const user = {
-  firstName: this.name,
-  getUser() {
-    console.log(`${this.firstName} is the user`);
-  },
-};
+function getUserFullName(firstName = "Murtuza", lastName = "Rangwala") {
+  console.log(`${firstName} ${lastName}`);
+}
+
+getUserFullName();
+getUserFullName("Murtuza", "Master");
