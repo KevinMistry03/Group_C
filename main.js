@@ -6,7 +6,7 @@ let lastName;
 let middlename;
 
 function getUserFullName(firstName = "Murtuza", lastName = "Rangwala") {
-  console.log(`${firstName} ${lastNames}`);
+  console.log(`${firstName} ${lastName}`);
 }
 
 function getMiddleName(middlename){
