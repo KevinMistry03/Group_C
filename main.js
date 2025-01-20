@@ -5,7 +5,7 @@ let firstName;
 let lastName;
 
 function getUserFullName(firstName = "Murtuza", lastName = "Rangwala") {
-  console.log(`${firstName} ${lastName}`);
+  console.log(`${firstName} ${lastNames}`);
 }
 
 const newFunction = () => {
