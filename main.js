@@ -15,3 +15,4 @@ const newFunction = () => {
 newFunction();
 getUserFullName();
 getUserFullName("Murtuza", "Master");
+getUserFullName("Aayush", "Vadiya")
